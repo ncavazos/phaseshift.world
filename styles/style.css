@@ -1,0 +1,80 @@
+html {
+  background-color: #000000;
+  font-family: "Silkscreen";
+  color: #f1f1f1;
+  font-size: 40px;
+}
+
+.intro {
+  font-size:15px;
+}
+.bar {
+  width: 600px;
+  height: 10px;
+  background-color: #4b4bea;
+  margin: 0px 0px 20px 200px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4b4bea;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+@mediascreen and (max-height:450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.logo {
+  width: 600px;
+  padding: 20px;
+}
+.header {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.flyers {
+  display: flex;
+}
+
+.flyers img {
+  width: 33%;
+  padding: 5px;
+}
+
+.mixes {
+  display: flex;
+}
+
+.mixes img {
+  width 60%;
+  padding: 5px;
+}
