@@ -15,7 +15,7 @@
       <a href="#">Home</a>
       <a href="#events">Events</a>
       <a href="#mixes">Mix Series</a>
-      <a href="#">Photos</a>
+      <a href="#photos">Photos</a>
     </div>
 
     <div class="main">
@@ -25,19 +25,20 @@
         Hold onto the love
       </p>
       <img class="header" src="images/header.jpg" />
+
+
+
       <p>Events</p>
       <div class="bar"></div>
-
       <div id="events" class="flyers">
-        <img class="flyer" src="images/ps1.png" />
-        <img class="flyer" src="images/ps2.png" />
-        <img class="flyer" src="images/ps3.png" />
+        <img class="flyer" id="flyer1" src="images/ps1.png" onclick="enlargeImg1()" />
+        <img class="flyer" id="flyer2" src="images/ps2.png" onclick="enlargeImg2()"/>
+        <img class="flyer" id="flyer3" src="images/ps3.png" onclick="enlargeImg3()"/>
       </div>
 
 
       <p>Mix Series</p>
       <div class="bar"></div>
-
       <div id="mixes" class="mixes">
           <a href="https://soundcloud.com/phaseshift-kcmo/phaseshift-radio-rithy-mix-001">
             <img class="mix" src="images/rithy.png" style="width: 80%"/>
@@ -59,7 +60,67 @@
           </a>
       </div>
 
+
+      <p>Photos</p>
+      <div class="bar"></div>
+      <div id="photos" class="photos">
+        <img class="flyer" src="" />
+        <img class="flyer" src="" />
+        <img class="flyer" src="" />
+      </div>
+
     </div>
 
+
+    <script>
+      // Script to enlarge Photos
+      img1 = document.getElementById("flyer1")
+      img2 = document.getElementById("flyer2")
+      img3 = document.getElementById("flyer3")
+
+
+      let beenScaled1 = false;
+      let beenScaled2 = false;
+      let beenScaled3 = false;
+
+      //Function to increase image size
+      function enlargeImg1() {
+        if (beenScaled1 === false) {
+          img1.style.transform = "scale(1.5)";
+          img1.style.transition = "transform 0.25s ease";
+          beenScaled1 = true;
+        } else {
+          img1.style.transform = "scale(1)";
+          img1.style.transition = "transform 0.25s ease";
+          beenScaled1 = false;
+        };
+      }
+
+      function enlargeImg2() {
+        if (beenScaled2 === false) {
+          img2.style.transform = "scale(1.5)";
+          img2.style.transition = "transform 0.25s ease";
+          beenScaled2 = true;
+        } else {
+          img2.style.transform = "scale(1)";
+          img2.style.transition = "transform 0.25s ease";
+          beenScaled2 = false;
+        };
+      }
+
+      function enlargeImg3() {
+        if (beenScaled3 === false) {
+          img3.style.transform = "scale(1.5)";
+          img3.style.transition = "transform 0.25s ease";
+          beenScaled3 = true;
+        } else {
+          img3.style.transform = "scale(1)";
+          img3.style.transition = "transform 0.25s ease";
+          beenScaled3 = false;
+        };
+      }
+
+
+      </script>
   </body>
 </html>
