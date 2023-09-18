@@ -88,10 +88,13 @@
         if (beenScaled1 === false) {
           img1.style.transform = "scale(1.5)";
           img1.style.transition = "transform 0.25s ease";
+          img1.style.position = "relative";
+          img1.style.zindex = "4";
           beenScaled1 = true;
         } else {
           img1.style.transform = "scale(1)";
           img1.style.transition = "transform 0.25s ease";
+          img1.style.zindex = "0";
           beenScaled1 = false;
         };
       }
