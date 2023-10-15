@@ -5,14 +5,14 @@ html {
   font-size: 40px;
 }
 
-.intro {
-  font-size:15px;
-}
 .bar {
   width: 600px;
   height: 10px;
   background-color: #4b4bea;
   margin: 0px 0px 20px 200px;
+}
+.intro {
+  font-size:15px;
 }
 
 .sidenav {
@@ -75,7 +75,7 @@ html {
 }
 
 .flyers2 img {
-  width: 33%;
+  width: 50%;
   padding: 5px;
 }
 
