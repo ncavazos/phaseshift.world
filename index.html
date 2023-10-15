@@ -31,9 +31,14 @@
       <p id="events">Events</p>
       <div class="bar"></div>
       <div id="events" class="flyers">
-        <img class="flyer" id="flyer1" src="images/ps1.png" onclick="enlargeImg1()" />
+        <img class="flyer" id="flyer1" src="images/ps1.png" onclick="enlargeImg1()"/>
         <img class="flyer" id="flyer2" src="images/ps2.png" onclick="enlargeImg2()"/>
         <img class="flyer" id="flyer3" src="images/ps3.png" onclick="enlargeImg3()"/>
+      </div>
+
+      <div id="events" class="flyers2">
+        <img class="flyer" id="flyer4" src="images/ps4.png" onclick="enlargeImg1()"/>
+        <img class="flyer" id="flyer5" src="images/psEE.png" onclick="enlargeImg1()"/>
       </div>
 
 
@@ -43,18 +48,12 @@
           <a href="https://soundcloud.com/phaseshift-kcmo/phaseshift-radio-rithy-mix-001">
             <img class="mix" src="images/rithy.png" style="width: 80%"/>
           </a>
-
-
           <a href="https://soundcloud.com/phaseshift-kcmo/sykat-cata-b2b-mix-002">
             <img class="mix" src="images/sykat-cata.png" style="width:80%" />
           </a>
-
-
           <a href="https://soundcloud.com/phaseshift-kcmo/phaseshift-radio-violent-constellations-mix-003">
             <img class="mix" src="images/vc.png" style="width:80%" />
           </a>
-
-
           <a href="https://soundcloud.com/phaseshift-kcmo/phaseshift-radio-dewey">
             <img class="mix" src="images/dewey.png" style=width:80% />
           </a>
@@ -103,10 +102,12 @@
         if (beenScaled2 === false) {
           img2.style.transform = "scale(1.5)";
           img2.style.transition = "transform 0.25s ease";
+          img2.style.zindex = 4;
           beenScaled2 = true;
         } else {
           img2.style.transform = "scale(1)";
           img2.style.transition = "transform 0.25s ease";
+          img2.style.zindex = 0;
           beenScaled2 = false;
         };
       }
@@ -115,10 +116,12 @@
         if (beenScaled3 === false) {
           img3.style.transform = "scale(1.5)";
           img3.style.transition = "transform 0.25s ease";
+          img3.style.zindex = 4;
           beenScaled3 = true;
         } else {
           img3.style.transform = "scale(1)";
           img3.style.transition = "transform 0.25s ease";
+          img3.style.zindex = 0;
           beenScaled3 = false;
         };
       }
