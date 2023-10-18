@@ -2,7 +2,7 @@ html {
   background-color: #000000;
   font-family: "Silkscreen";
   color: #f1f1f1;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .bar {
@@ -12,7 +12,7 @@ html {
   margin: 0px 0px 20px 200px;
 }
 .intro {
-  font-size:15px;
+  font-size:35px;
 }
 
 .sidenav {
@@ -38,10 +38,10 @@ html {
   color: #000000;
 }
 
-.main {
+/* .main {
   margin-left: 0px;
   padding: 0px 10px;
-}
+}  */
 
 @mediascreen and (max-height:450px) {
   .sidenav {padding-top: 15px;}
@@ -80,25 +80,31 @@ html {
 
 .mixes {
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .mixes img {
   width 50%;
-  padding: 25px;
+  padding: 5px;
 }
 .mixes2 {
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .mixes2 img {
   width 50%;
-  padding: 25px;
+  padding: 5px;
 }
 .mixes3 {
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .mixes3 img {
   width 50%;
-  padding: 25px;
+  padding: 5px;
 }
