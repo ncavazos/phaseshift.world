@@ -83,7 +83,7 @@ html {
 }
 
 .mixes img {
-  width 50%;
+  width 66%;
   padding: 2px;
 }
 .mixes2 {
@@ -91,14 +91,14 @@ html {
 }
 
 .mixes2 img {
-  width 50%;
-  padding: 2px;
+  width 66%;
+  padding: 5px;
 }
 .mixes3 {
   display: flex;
 }
 
 .mixes3 img {
-  width 100%;
-  padding: 2px;
+  width 66%;
+  padding: 5px;
 }
