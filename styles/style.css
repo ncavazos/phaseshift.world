@@ -83,22 +83,22 @@ html {
 }
 
 .mixes img {
-  width 66%;
-  padding: 2px;
+  width 50%;
+  padding: 25px;
 }
 .mixes2 {
   display: flex;
 }
 
 .mixes2 img {
-  width 66%;
-  padding: 5px;
+  width 50%;
+  padding: 25px;
 }
 .mixes3 {
   display: flex;
 }
 
 .mixes3 img {
-  width 66%;
-  padding: 5px;
+  width 50%;
+  padding: 25px;
 }
