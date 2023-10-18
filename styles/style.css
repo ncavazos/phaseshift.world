@@ -24,6 +24,8 @@ html {
   background-color: #4b4bea;
   overflow-x: hidden;
   padding-top: 20px;
+  display: flex;
+  align-content: center;
 }
 
 .sidenav a {
@@ -85,8 +87,8 @@ html {
 }
 
 .mixes img {
-  width 50%;
-  padding: 5px;
+  width 33%;
+  padding: 1px;
 }
 .mixes2 {
   display: flex;
@@ -95,8 +97,8 @@ html {
 }
 
 .mixes2 img {
-  width 50%;
-  padding: 5px;
+  width 33%;
+  padding: 1px;
 }
 .mixes3 {
   display: flex;
@@ -105,6 +107,6 @@ html {
 }
 
 .mixes3 img {
-  width 50%;
-  padding: 5px;
+  width 33%;
+  padding: 1px;
 }
