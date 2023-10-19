@@ -42,14 +42,12 @@ html {
 
 .header {
   margin: 0 auto;
-  width: 1000px;
+  width: 1010px;
   border: 1px solid white;
 }
 
 .flyers {
   display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
 .flyers img {
@@ -62,7 +60,6 @@ html {
 
 .flyers2 img {
   width: 50%;
-  padding: 2px;
 }
 .logo {
   width: 600px;
@@ -70,8 +67,6 @@ html {
 }
 .mixes {
   display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
 .mixes img {
@@ -80,8 +75,6 @@ html {
 }
 .mixes2 {
   display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
 .mixes2 img {
