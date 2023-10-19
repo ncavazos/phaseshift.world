@@ -40,10 +40,6 @@ html {
 }
 
 
-@mediascreen and (max-height:450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 .header {
   margin: 0 auto;
   width: 1000px;
