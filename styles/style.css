@@ -16,14 +16,13 @@ html {
 }
 
 .sidenav {
-  height: 50%;
-  position: relative;
   z-index: 0;
   top: 0;
   left: 0;
   background-color: #4b4bea;
   overflow-x: hidden;
   padding-top: 20px;
+  padding-bottom: 30px;
   display: flex;
   align-content: center;
 }
@@ -40,19 +39,10 @@ html {
   color: #000000;
 }
 
-/* .main {
-  margin-left: 0px;
-  padding: 0px 10px;
-}  */
 
 @mediascreen and (max-height:450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-
-.logo {
-  width: 600px;
-  padding: 20px;
 }
 .header {
   display: block;
@@ -64,11 +54,12 @@ html {
 
 .flyers {
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .flyers img {
   width: 33%;
-  padding: 5px;
 }
 
 .flyers2 {
@@ -77,9 +68,12 @@ html {
 
 .flyers2 img {
   width: 50%;
-  padding: 5px;
+  padding: 2px;
 }
-
+.logo {
+  width: 600px;
+  padding: 20px;
+}
 .mixes {
   display: flex;
   justify-content: center;
@@ -87,8 +81,8 @@ html {
 }
 
 .mixes img {
-  width 33%;
-  padding: 1px;
+  padding: 5px;
+  width: 90%;
 }
 .mixes2 {
   display: flex;
@@ -97,8 +91,8 @@ html {
 }
 
 .mixes2 img {
-  width 33%;
   padding: 1px;
+  width: 90%
 }
 .mixes3 {
   display: flex;
@@ -107,6 +101,6 @@ html {
 }
 
 .mixes3 img {
-  width 33%;
   padding: 1px;
+  width: 90%;
 }
