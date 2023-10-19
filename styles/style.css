@@ -24,7 +24,6 @@ html {
   padding-top: 20px;
   padding-bottom: 30px;
   display: flex;
-  align-content: center;
 }
 
 .sidenav a {
@@ -32,7 +31,6 @@ html {
   text-decoration: none;
   font-size: 40px;
   color: #f1f1f1;
-  display: block;
 }
 
 .sidenav a:hover {
@@ -67,27 +65,25 @@ html {
 }
 .mixes {
   display: flex;
+  align-content: center;
 }
 
 .mixes img {
-  padding: 5px;
-  width: 90%;
+  width: 100%;
 }
 .mixes2 {
   display: flex;
+  align-content: center;
 }
 
 .mixes2 img {
-  padding: 1px;
-  width: 90%
+  width: 100%
 }
 .mixes3 {
   display: flex;
-  justify-content: center;
   align-content: center;
 }
 
 .mixes3 img {
-  padding: 1px;
-  width: 90%;
+  width: 120%;
 }
