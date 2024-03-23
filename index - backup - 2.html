@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=width=1024"/>
+    <title>Phaseshift.World</title>
+    <link href="styles/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="sidenav">
+      <a href="#">Home</a>
+      <a href="#events">Events</a>
+      <a href="#mixes">Mix Series</a>
+      <a href="#photos">Photos</a>
+    </div>
+
+      <img class="logo" src="images/logo.png" />
+      <div class="bar"></div>
+      <p class="intro">The music takes you round and round and round again<br>
+        Hold onto the love
+      </p>
+      <img class="header" src="images/header-new.jpg" />
+
+
+
+      <p id="events">Events</p>
+      <div class="bar"></div>
+      <div id="events" class="flyers">
+        <img class="flyer" id="flyer1" src="images/ps1-new.jpg" onclick="enlargeImg1()"/>
+        <img class="flyer" id="flyer2" src="images/ps2-new.jpg" onclick="enlargeImg2()"/>
+        <img class="flyer" id="flyer3" src="images/ps3-new.jpg" onclick="enlargeImg3()"/>
+      </div>
+
+      <div align="center" id="events" class="flyers2">
+        <img class="flyer" id="flyer4" src="images/ps4-new.jpg" onclick="enlargeImg1()"/>
+        <img class="flyer" id="flyer5" src="images/psEE-new.jpg" onclick="enlargeImg1()"/>
+      </div>
+
+
+      <p id="mixes">Mix Series</p>
+      <div class="bar"></div>
+      <div class="mixes">
+          <a href="https://soundcloud.com/phaseshift-kcmo/phaseshift-radio-rithy-mix-001">
+            <img class="mix" src="images/rithy.png" />
+          </a>
+          <a href="https://soundcloud.com/phaseshift-kcmo/sykat-cata-b2b-mix-002">
+            <img class="mix" src="images/sykat-cata.png"  />
+          </a>
+      </div>
+
+      <div class="mixes2">
+        <a href="https://soundcloud.com/phaseshift-kcmo/phaseshift-radio-violent-constellations-mix-003">
+          <img class="mix" src="images/vc.png"  />
+        </a>
+        <a href="https://soundcloud.com/phaseshift-kcmo/phaseshift-radio-dewey">
+          <img class="mix" src="images/dewey.png"  />
+      </div>
+
+      <div class="mixes3">
+        <a href="https://soundcloud.com/phaseshift-kcmo/phaseshift-radio-v985-mix-005">
+          <img class="mix" src="images/v985.jpg"  />
+        </a>
+      </div>
+
+      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1690536246&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/phaseshift-kcmo" title="phaseshift.kcmo" target="_blank" style="color: #cccccc; text-decoration: none;">phaseshift.kcmo</a> · <a href="https://soundcloud.com/phaseshift-kcmo/sets/mix-series" title="Mix Series" target="_blank" style="color: #cccccc; text-decoration: none;">Mix Series</a>
+
+      <p id="photos">Photos</p>
+      <div class="bar"></div>
+      <div id="photos" class="photos">
+        <img class="flyer" src="" />
+        <img class="flyer" src="" />
+        <img class="flyer" src="" />
+      </div>
+
+
+
+    <script>
+      // Script to enlarge Photos
+      img1 = document.getElementById("flyer1")
+      img2 = document.getElementById("flyer2")
+      img3 = document.getElementById("flyer3")
+
+
+      let beenScaled1 = false;
+      let beenScaled2 = false;
+      let beenScaled3 = false;
+
+      //Function to increase image size
+      function enlargeImg1() {
+        if (beenScaled1 === false) {
+          img1.style.transform = "scale(1.5)";
+          img1.style.transition = "transform 0.25s ease";
+          img1.style.position = "relative";
+          img1.style.zindex = "4";
+          beenScaled1 = true;
+        } else {
+          img1.style.transform = "scale(1)";
+          img1.style.transition = "transform 0.25s ease";
+          img1.style.zindex = "0";
+          beenScaled1 = false;
+        };
+      }
+
+      function enlargeImg2() {
+        if (beenScaled2 === false) {
+          img2.style.transform = "scale(1.5)";
+          img2.style.transition = "transform 0.25s ease";
+          img2.style.zindex = 4;
+          beenScaled2 = true;
+        } else {
+          img2.style.transform = "scale(1)";
+          img2.style.transition = "transform 0.25s ease";
+          img2.style.zindex = 0;
+          beenScaled2 = false;
+        };
+      }
+
+      function enlargeImg3() {
+        if (beenScaled3 === false) {
+          img3.style.transform = "scale(1.5)";
+          img3.style.transition = "transform 0.25s ease";
+          img3.style.zindex = 4;
+          beenScaled3 = true;
+        } else {
+          img3.style.transform = "scale(1)";
+          img3.style.transition = "transform 0.25s ease";
+          img3.style.zindex = 0;
+          beenScaled3 = false;
+        };
+      }
+
+
+      </script>
+  </body>
+</html>

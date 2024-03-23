@@ -5,6 +5,9 @@ html {
   font-size: 60px;
 }
 
+body {
+  min-width: fit-content;
+}
 .bar {
   width: 600px;
   height: 10px;
@@ -13,6 +16,7 @@ html {
 }
 .intro {
   font-size:35px;
+  margin: 0 auto;
 }
 
 .sidenav {
@@ -54,10 +58,22 @@ html {
 
 .flyers2 {
   display: flex;
+
+  align-content: center;
 }
 
 .flyers2 img {
-  width: 50%;
+  width: 100%;
+}
+
+.flyers3 {
+  display: flex;
+
+  align-content: center;
+}
+
+.flyers3 img {
+  width: 100%;
 }
 .logo {
   width: 600px;
