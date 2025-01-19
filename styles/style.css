@@ -112,11 +112,67 @@ body {
 .mixes2 img {
   width: 100%
 }
+
+.mixes3 img {
+  width: 100%;
+}
 .mixes3 {
   display: flex;
   align-content: center;
 }
 
-.mixes3 img {
-  width: 120%;
+.mixes4 img {
+  width: 100%;
+}
+.mixes4 {
+  display: flex;
+  align-content: center;
+}
+
+.mixes5 img {
+  width: 100%;
+}
+.mixes5 {
+  display: flex;
+  align-content: center;
+}
+
+.mixes6 img {
+  width: 100%;
+}
+.mixes6 {
+  display: flex;
+  align-content: center;
+}
+
+.mixes7 img {
+  width: 100%;
+}
+.mixes7 {
+  display: flex;
+  align-content: center;
+}
+
+.mixes8 img {
+  width: 100%;
+}
+.mixes8 {
+  display: flex;
+  align-content: center;
+}
+
+.mixes9 img {
+  width: 100%;
+}
+.mixes9 {
+  display: flex;
+  align-content: center;
+}
+
+.mixes10 img {
+  width: 100%;
+}
+.mixes10 {
+  display: flex;
+  align-content: center;
 }
