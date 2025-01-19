@@ -1,6 +1,6 @@
 html {
   background-color: #000000;
-  font-family: "Silkscreen";
+  font-family: "Plus Jakarta Sans", serif;
   color: #f1f1f1;
   font-size: 60px;
 }
@@ -13,6 +13,14 @@ body {
   height: 10px;
   background-color: #4b4bea;
   margin: 0px 0px 20px 200px;
+}
+.logo {
+  width: 700px;
+  padding: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .intro {
   font-size:35px;
@@ -58,7 +66,6 @@ body {
 
 .flyers2 {
   display: flex;
-
   align-content: center;
 }
 
@@ -68,17 +75,13 @@ body {
 
 .flyers3 {
   display: flex;
-
   align-content: center;
 }
 
 .flyers3 img {
   width: 100%;
 }
-.logo {
-  width: 600px;
-  padding: 20px;
-}
+
 .mixes {
   display: flex;
   align-content: center;
