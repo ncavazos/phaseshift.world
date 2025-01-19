@@ -67,6 +67,10 @@ body {
   padding-left: 50px;
 }
 
+#flyer1 {
+  width: 100%;
+}
+
 .flyers img {
     width: 100%;
 }
@@ -75,7 +79,9 @@ body {
   display: flex;
 }
 
-
+.flyers img {
+  width: 33%;
+}
 
 .flyers2 {
   display: flex;
