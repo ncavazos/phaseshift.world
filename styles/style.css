@@ -67,13 +67,15 @@ body {
   padding-left: 50px;
 }
 
+.flyers img {
+    width: 100%;
+}
+
 .flyers {
   display: flex;
 }
 
-.flyers img {
-  width: 33%;
-}
+
 
 .flyers2 {
   display: flex;
