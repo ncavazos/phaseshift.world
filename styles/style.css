@@ -64,6 +64,10 @@ body {
   /* border: 1px solid white; */
 }
 
+#events {
+  padding-left: 50px;
+}
+
 .flyers {
   display: flex;
 }
@@ -90,6 +94,9 @@ body {
   width: 100%;
 }
 
+#mixes {
+  padding-left: 50px;
+}
 .mixes {
   display: flex;
   align-content: center;
