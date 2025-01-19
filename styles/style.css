@@ -61,7 +61,7 @@ body {
 .header {
   margin: 0 auto;
   width: 1010px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .flyers {
