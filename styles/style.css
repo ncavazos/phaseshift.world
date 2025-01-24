@@ -38,8 +38,6 @@ body {
   background-color: #4b4bea;
   overflow-x: hidden;
   font-size: 90px;
-  padding-top: 30px;
-  padding-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,6 +53,7 @@ body {
 .sidenav a:hover {
   color: #000000;
 }
+
 
 
 .header {
